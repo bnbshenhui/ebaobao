@@ -1,0 +1,19 @@
+{
+  "name" : "first nodejs app",
+  "description" : "first attempt of the app",
+  "version" : "0.0.1",
+  "private" : true,
+  "author":{
+    "name" : "ebao",
+    "email" : "shenhui0509@139.com"
+  },
+  "dependencies":{
+    "express" : "^4.13.3"
+  },
+  "engines":{
+    "node" : "0.10.36"
+  },
+  "scripts":{
+    "start":"node index.js"
+  }
+}
