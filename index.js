@@ -8,5 +8,5 @@ app.get('/', function(req, res){
 
 /* istanbul ignore next */
 
-app.listen(process.env.PORT || 5050);
+app.listen(process.env.PORT || 80);
 
