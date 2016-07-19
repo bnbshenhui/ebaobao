@@ -8,6 +8,5 @@ app.get('/', function(req, res){
 
 /* istanbul ignore next */
 
-app.listen(3000);
-console.log('Express started on port 3000');
+app.listen(process.env.PORT || 5050);
 
