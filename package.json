@@ -1,0 +1,25 @@
+{
+  "name" : "ebaobao",
+  "description" : "the ebaobao wechat app",
+  "version":"0.0.1",
+  "author" : {
+    "shenhui" : {
+      "name" : "shenhui",
+      "email" : "shenhui0509@139.com"
+    },
+    "E" : {
+      "name" : "zpy",
+      "email" : "xxxx@outlook.com"
+    }
+  },
+  "dependencies" : {
+    "express" : "*",
+    "wechat" : "*"
+  },
+  "engines" : {
+    "node" : "*"
+  },
+  "scripts" : {
+    "start" : "node index.js"
+  }
+}
